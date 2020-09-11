@@ -1,13 +1,13 @@
 {
   "name": "react-scaffold-tool",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "macaw": "./bin/test.js"
+    "test": "./bin/test.js"
   },
   "author": "",
   "license": "ISC",
