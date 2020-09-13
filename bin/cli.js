@@ -1,13 +1,18 @@
-const program = require('commander')
+#!/usr/bin/env node
+
+const program = require('commander');
 const package = require('../package.json');
+const initProject  = require('../lib/init.js');
 
 program
-  .version(package.version)
-  .option('-a, --aaa', 'aaaaa')
-  .command('init', 'create a new project')
-  .parse(process.argv)
+  .version(package.version, '-v, --version', 'output the current version')
+  .description('Welcome to use react-scaffold built by DangoSky~')
 
-console.log(2);
-if (program.aaa) {
-  console.log('aaa');
-}
+program
+  .command('init')
+  .action((cmd) => {
+    const projectName = cmd.args[0];
+    initProject(projectName);
+  })
+
+program.parse(process.argv);
