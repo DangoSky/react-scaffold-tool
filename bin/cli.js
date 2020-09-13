@@ -12,7 +12,9 @@ program
   .command('init')
   .action((cmd) => {
     const projectName = cmd.args[0];
-    initProject(projectName);
+    // The download is under the current directory of the run command
+    const directoryPath = process.cwd();
+    initProject(directoryPath, projectName);
   })
 
 program.parse(process.argv);
