@@ -1,7 +1,12 @@
 {
   "name": "react-scaffold-tool",
-  "version": "0.2.0",
+  "version": "1.3.0",
   "description": "A react-scaffold built by dangosky",
+  "keywords": [
+    "react",
+    "react-scaffold",
+    "webpack"
+  ],
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
