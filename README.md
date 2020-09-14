@@ -48,9 +48,9 @@ npm install
 - [ ] React 相关依赖，包括 React-Router
 - [x] TypeScript 编译
 - [x] Less 编译
+- [x] Babel 编译
 - [x] Antd UI 库
 - [ ] 网络模板封装
-- [x] Babel 编译
 - [ ] Eslint
 - [ ] 打包优化
 - [ ] 构建优化
@@ -59,10 +59,10 @@ npm install
 
 ## 更新日志
 
-- 2020.09.14：初步完成 react-scaffold-tool 并发布 npm 包。
-- 2020.09.11：开始搭建 react-scaffold-tool 脚手架。
-- 2020.09.08：完成项目模板的基本配置，包括 React、TS、Less、Babel、Antd 和热重载等各项配置。
-- 2020.08.29：开始使用 webpack 从零配置一个新项目。
+- 2020/09/14：初步完成 react-scaffold-tool 并发布 npm 包。
+- 2020/09/11：开始搭建 react-scaffold-tool 脚手架。
+- 2020/09/08：完成项目模板的基本配置，包括 react、ts、less、babel、antd 和热重载等各项配置。
+- 2020/08/29：开始使用 webpack 从零配置一个新项目。
 
 
 ## FAQ
