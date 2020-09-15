@@ -61,7 +61,7 @@ npm install
 
 - 2020/09/14：初步完成 react-scaffold-tool 并发布 npm 包。
 - 2020/09/11：开始搭建 react-scaffold-tool 脚手架。
-- 2020/09/08：完成项目模板的基本配置，包括 react、ts、less、babel、antd 和热重载等各项配置。
+- 2020/09/08：完成项目模板的基本配置，包括 react、ts、less、babel、antd 和热重载等各项配置。
 - 2020/08/29：开始使用 webpack 从零配置一个新项目。
 
 
