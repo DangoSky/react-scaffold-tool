@@ -41,24 +41,29 @@ Directory structure of project templates：
     ├── index.tsx // project entry file
     ├── style.less // root component style
     ├── index.html // HTML template when packaging
+    ├── api 
+    │   ├── index.ts  // the get and post methods are encapsulated
+    │   ├── modules // then according to the division of project modules, add interfaces here
+    ├── pages // divide project business components according to pages
 ```
 
 ## Configured function
 
-- [ ] React related dependencies, including React-Router
+- [x] React related dependencies, including React-Router
 - [x] TypeScript compilation
 - [x] Less compilation
 - [x] Babel compilation
 - [x] Antd UI library
-- [ ] Network template packaging
+- [x] Network template packaging
+- [x] Hot reload
 - [ ] Eslint
 - [ ] Packaging optimization
 - [ ] Build optimization
-- [x] Hot reload
 
 
 ## Update log
 
+- 17/09/2020：Add the network request template, separate the development and online branches of the project template.
 - 14/09/2020：Initially complete react-scaffold-tool and release the npm package.
 - 11/09/2020：Start to build react-scaffold-tool scaffold.
 - 08/09/2020：Complete the basic configuration of the project template, including various configurations such as react, ts, less, babel, antd and hot reload.

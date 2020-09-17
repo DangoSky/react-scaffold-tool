@@ -41,24 +41,29 @@ npm install
     ├── index.tsx // 项目入口文件
     ├── style.less // 根组件样式
     ├── index.html // 打包时的 HTML 模板
+    ├── api 
+    │   ├── index.ts  // 封装了 get 和 post 方法
+    │   ├── modules // 后续根据项目模块的划分，在这里添加接口
+    ├── pages // 项目业务组件
 ```
 
 ## 配置的功能
 
-- [ ] React 相关依赖，包括 React-Router
+- [x] React 相关依赖，包括 React-Router
 - [x] TypeScript 编译
 - [x] Less 编译
 - [x] Babel 编译
 - [x] Antd UI 库
-- [ ] 网络模板封装
+- [x] 网络模板封装
+- [x] 热重载
 - [ ] Eslint
 - [ ] 打包优化
 - [ ] 构建优化
-- [x] 热重载
 
 
 ## 更新日志
 
+- 2020/09/17：增加网络请求模板，并且分离出项目模板的开发分支和线上分支。
 - 2020/09/14：初步完成 react-scaffold-tool 并发布 npm 包。
 - 2020/09/11：开始搭建 react-scaffold-tool 脚手架。
 - 2020/09/08：完成项目模板的基本配置，包括 react、ts、less、babel、antd 和热重载等各项配置。
