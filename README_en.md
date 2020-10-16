@@ -63,6 +63,7 @@ Directory structure of project templates：
 
 ## Update log
 
+- 16/10/2020：Increase the Webpack production environment configuration, cancel SourceMap to reduce the size of the package; use vender to separate out the unchanged modules such as React.
 - 17/09/2020：Add the network request template, separate the development and online branches of the project template.
 - 14/09/2020：Initially complete react-scaffold-tool and release the npm package.
 - 11/09/2020：Start to build react-scaffold-tool scaffold.
